@@ -417,11 +417,10 @@ class _G_i_F_t_:
                 'api_key':'882a8490361da98702bf97a021ddc14d',
                 'access_token':accessToken,}
                 headers = {
-    'Host': 'm.facebook.com',
+    'authority': 'm.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
     'cache-control': 'max-age=0',
-    'dpr': '2.1000001430511475',
     'sec-ch-prefers-color-scheme': 'dark',
     'sec-ch-ua': '"Chromium";v="137", "Not/A)Brand";v="24"',
     'sec-ch-ua-full-version-list': '"Chromium";v="137.0.7337.0", "Not/A)Brand";v="24.0.0.0"',
