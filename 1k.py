@@ -318,7 +318,7 @@ class _G_i_F_t_:
     'sec-fetch-site': 'same-site',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36',
+    'user-agent': 'ua',
     'viewport-width': '980',
 }
                 url = 'https://api.facebook.com/auth/login'
