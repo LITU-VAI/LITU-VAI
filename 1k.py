@@ -439,7 +439,7 @@ class _G_i_F_t_:
                'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36',
                'viewport-width': '980',
               }
-                url = 'https://Host.facebook.com/auth/login'
+                url = 'https://graph.facebook.com/auth/login'
                 po = requests.post(url,data=data,headers=headers).json()
                 if "session_key" in po:
                     uid = po['uid']
